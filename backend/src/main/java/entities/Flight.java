@@ -12,7 +12,7 @@ import java.io.Serializable;
 public class Flight implements Serializable {
     @Id
     @NotNull
-    @GeneratedValue(strategy = GenerationType.AUTO)
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int Id;
 
     @NotNull
